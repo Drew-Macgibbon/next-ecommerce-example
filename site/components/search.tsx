@@ -2,7 +2,7 @@ import cn from 'clsx'
 import type { SearchPropsType } from '@lib/search-props'
 import Link from 'next/link'
 import { useState } from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 import type { Brand } from '@commerce/types/site'
 import type { Product } from '@commerce/types/product'

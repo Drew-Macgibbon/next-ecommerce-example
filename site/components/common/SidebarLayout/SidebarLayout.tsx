@@ -1,3 +1,5 @@
+'use client'
+
 import React, { FC, ReactNode } from 'react'
 import { Cross, ChevronLeft } from '@components/icons'
 import { UserNav } from '@components/common'

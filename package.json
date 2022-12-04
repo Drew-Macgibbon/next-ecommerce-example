@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build --filter=next-commerce...",
+    "overwrite": "turbo run build --force",
     "dev": "turbo run dev",
     "start": "turbo run start",
     "types": "turbo run types",

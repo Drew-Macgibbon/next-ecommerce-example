@@ -1,7 +1,9 @@
+'use client'
+
 import cn from 'clsx'
 import s from './Layout.module.css'
 import dynamic from 'next/dynamic'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import { CommerceProvider } from '@framework'
 import LoginView from '@components/auth/LoginView'
 import { useUI } from '@components/ui/context'

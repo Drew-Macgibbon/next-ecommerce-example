@@ -16,7 +16,7 @@ const initialState = {
   displayModal: false,
   modalView: 'LOGIN_VIEW',
   sidebarView: 'CART_VIEW',
-  userAvatar: '',
+  userAvatar: 'https://i.pravatar.cc/300',
 }
 
 type Action =

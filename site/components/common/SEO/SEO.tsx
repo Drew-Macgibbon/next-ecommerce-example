@@ -1,3 +1,5 @@
+'use client'
+
 import Head from 'next/head'
 import { FC, Fragment, ReactNode } from 'react'
 import config from '@config/seo_meta.json'

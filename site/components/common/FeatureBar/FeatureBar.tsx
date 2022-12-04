@@ -1,3 +1,5 @@
+'use client'
+
 import cn from 'clsx'
 import s from './FeatureBar.module.css'
 

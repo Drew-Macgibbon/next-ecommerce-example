@@ -1,7 +1,9 @@
+'use client'
+
 import { FC } from 'react'
 import cn from 'clsx'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import type { Page } from '@commerce/types/page'
 import getSlug from '@lib/get-slug'
 import { Github, Vercel } from '@components/icons'

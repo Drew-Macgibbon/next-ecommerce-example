@@ -1,3 +1,5 @@
+'use client'
+
 import commerce from '@lib/api/commerce'
 import { Layout } from '@components/common'
 import { ProductCard } from '@components/product'

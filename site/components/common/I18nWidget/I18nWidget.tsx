@@ -1,7 +1,9 @@
+'use client'
+
 import cn from 'clsx'
 import Link from 'next/link'
 import { FC, useState } from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import s from './I18nWidget.module.css'
 import { Cross, ChevronRight } from '@components/icons'
 import ClickOutside from '@lib/click-outside'

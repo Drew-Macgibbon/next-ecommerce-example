@@ -1,7 +1,9 @@
+'use client'
+
 import { FC, memo, useEffect } from 'react'
 import cn from 'clsx'
 import s from './Searchbar.module.css'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 interface Props {
   className?: string

@@ -1,6 +1,6 @@
 import cn from 'clsx'
 import { useTheme } from 'next-themes'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import { Moon, Sun } from '@components/icons'
 import s from './CustomerMenuContent.module.css'
 import useLogout from '@framework/auth/use-logout'

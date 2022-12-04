@@ -9,7 +9,7 @@ import { Layout } from '@components/common'
 import getSlug from '@lib/get-slug'
 import { missingLocaleInPages } from '@lib/usage-warns'
 import type { Page } from '@commerce/types/page'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 export async function getStaticProps({
   preview,
@@ -70,9 +70,7 @@ export async function getStaticPaths({ locales }: GetStaticPathsContext) {
   }
 }
 
-export default function Pages({
-  page,
-}: {page: Page}) {
+export default function Pages({ page }: { page: Page }) {
   const router = useRouter()
 
   return router.isFallback ? (
